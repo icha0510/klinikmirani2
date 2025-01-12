@@ -29,6 +29,13 @@
 
     <!-- CSS Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
+
+    <script>
+      function playAudio() {
+          var audio = document.getElementById('audioKlinik');
+          audio.play();
+      }
+  </script>
   </head>
 
   <body>
@@ -56,7 +63,10 @@
             <a href="https://t.me/+6281110009810" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i class="fab fa-telegram"></i></a>
             <a href="https://www.instagram.com/miraniclinicofficial?igsh=ZjQxazllNHVibGo4" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i class="fab fa-instagram"></i></a>
             <a href="https://wa.me/+6281110009810" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-3" onclick="playAudio()"><i class="bi bi-volume-up-fill"></i></a>
+            
           </div>
+          <audio id="audioKlinik" src="audioklinik.mp3"></audio>
         </div>
       </div>
     </div>
@@ -149,8 +159,8 @@
                 <div class="service-content-inner">
                   <h5 class="mb-4">Hifu Face</h5>
                   <p class="mb-4">
-                    Treatment dengan alat super canggih teknologi korea yang akan membuat wajah tirus & berkontur tanpa operasi, mengatasi kulit wajah yang mulai mengendur, pipi chubby serta
-                    mengencangkan wajah hanya dalam 1X pengerjaan
+                    Treatment dengan alat super canggih teknologi korea yang akan membuat wajah tirus & berkontur tanpa operasi,  pipi chubby serta
+                    mengencangkan wajah 
                   </p>
                   <p>Rp. 2.160.000,-</p>
                 </div>
@@ -180,8 +190,7 @@
                 <div class="service-content-inner">
                   <h5 class="mb-4">PRP</h5>
                   <p class="mb-4">
-                    Perawatan yang di lakukan dengan menyuntikkan plasma darah pasien yang di gunakan untuk merangsang sel-sel pertumbuhan. Treatment ini berfungsi untuk anti aging, peremajaan kulit
-                    dan menyamarkan bekas jerawat
+                    Menyuntikkan plasma darah pasien yang di gunakan untuk merangsang sel-sel. Treatment ini berfungsi untuk anti aging dan menyamarkan bekas jerawat
                   </p>
                   <p>Rp. 1.000.000,-</p>
                 </div>
@@ -237,8 +246,8 @@
               </div>
               <div class="service-content rounded-bottom bg-light p-4">
                 <div class="service-content-inner">
-                  <h5 class="mb-4">IPL Smart Tone</h5>
-                  <p class="mb-4">Meratakan kulit wajah</p>
+                  <h5 class="mb-4">IPL Smart Toner</h5>
+                  <p class="mb-4">Meratakan kulit wajah, membuat wajah lebih bercahaya dan membuat kulit tammpak sehat</p>
                   <p>Rp. 999.000,-</p>
                 </div>
               </div>
